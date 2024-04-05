@@ -1,0 +1,20 @@
+{
+  "name": "mangabr",
+  "version": "1.0.0",
+  "description": "leia mangas em portugues atraves da linha de comando",
+  "main": "./dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "w1tchCrafter",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
