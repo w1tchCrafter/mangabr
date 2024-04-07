@@ -9,4 +9,5 @@ export class ScrapperError extends Error {
 export default interface IMangaScrapper {
     search_host: string;
     search: (manganame: string) => Promise<search_results | ScrapperError>;
+    fetch_chapters: (url: string) => Promise<search_results | ScrapperError>;
 }

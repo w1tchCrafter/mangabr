@@ -13,3 +13,13 @@ test("test empty results scraping manga urls", async() => {
 
     expect(empty).toEqual([]);
 });
+
+test("test scrapping manga chapters", async() => {
+    let scrapper = new Scrapper();
+    let chapters = await scrapper.fetch_chapters("https://lermanga.org/mangas/jashin-chan-dropkick/");
+
+    expect(chapters).toEqual([
+        "https://lermanga.org/capitulos/jashin-chan-dropkick-capitulo-01/",
+        "https://lermanga.org/capitulos/jashin-chan-dropkick-capitulo-00/"
+    ]); 
+});
