@@ -24,7 +24,6 @@
     "@types/axios": "^0.14.0",
     "@types/cheerio": "^0.22.35",
     "axios": "^1.6.8",
-    "cheerio": "^1.0.0-rc.12",
-    "puppeteer": "^22.6.3"
+    "cheerio": "^1.0.0-rc.12"
   }
 }
